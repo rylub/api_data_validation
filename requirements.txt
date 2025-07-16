@@ -1,4 +1,5 @@
-requests
-jsonschema
-pytz
-requests-mock
+# Production Dependencies
+requests==2.31.0
+jsonschema==4.19.2
+pytz==2023.3
+PyYAML==6.0.1

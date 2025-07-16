@@ -1,0 +1,17 @@
+# CoinGecko API Data Validation Tool Configuration
+
+# API Configuration
+base_url: "https://api.coingecko.com/api/v3/simple/price"
+request_timeout: 10
+max_retries: 3
+retry_delay: 2
+
+# Default Values
+default_coins:
+  - "bitcoin"
+  - "ethereum"
+default_currency: "usd"
+
+# Logging Configuration
+log_level: "INFO"
+logs_dir: "logs"
